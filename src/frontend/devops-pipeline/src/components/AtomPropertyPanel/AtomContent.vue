@@ -250,6 +250,7 @@
     import CodeGitWebHookTrigger from './CodeGitWebHookTrigger'
     import CodeGithubWebHookTrigger from './CodeGithubWebHookTrigger'
     import CodeGitlabWebHookTrigger from './CodeGitlabWebHookTrigger'
+    import CodeGiteeWebHookTrigger from './CodeGiteeWebHookTrigger'
     import CodePullGitX from './CodePullGitX'
     import CodePullSvn from './CodePullSvn'
     import CodeSvnWebHookTrigger from './CodeSvnWebHookTrigger'
@@ -511,6 +512,7 @@
                     reportArchiveService: ReportArchive,
                     codeGitWebHookTrigger: CodeGitWebHookTrigger,
                     codeGitlabWebHookTrigger: CodeGitlabWebHookTrigger,
+                    codeGiteeWebHookTrigger: CodeGiteeWebHookTrigger,
                     codeSVNWebHookTrigger: CodeSvnWebHookTrigger,
                     GITHUB: PullGithub,
                     codeGithubWebHookTrigger: CodeGithubWebHookTrigger,
